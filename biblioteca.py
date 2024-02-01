@@ -74,6 +74,16 @@ def prestar_libro(biblioteca):
             encontrado = True
             break
 
+def devolver_libro(biblioteca):
+    titulo = input("Ingrese el título del libro a devolver: ")
+    encontrado = False
+    for libro in biblioteca:
+        if libro["titulo"] == titulo and not libro["disponibilidad"]:
+            libro["disponibilidad"] = True
+            print(f'Libro "{titulo}" devuelto con éxito.')
+            encontrado = True
+            break
+        
 while True:
     print("\n1. Agregar libro")
     print("2. Prestar libro")
@@ -91,14 +101,7 @@ while True:
             print(f'Libro "{titulo}" no disponible para préstamo.')
 
     elif opcion == "3":
-        titulo = input("Ingrese el título del libro a devolver: ")
-        encontrado = False
-        for libro in biblioteca:
-            if libro["titulo"] == titulo and not libro["disponibilidad"]:
-                libro["disponibilidad"] = True
-                print(f'Libro "{titulo}" devuelto con éxito.')
-                encontrado = True
-                break
+        
         if not encontrado:
             print(f'No se puede devolver el libro "{titulo}".')
 
