@@ -86,6 +86,8 @@ def devolver_libro(biblioteca):
             print(f'Libro "{titulo}" devuelto con éxito.')
             encontrado = True
             break
+    if not encontrado:
+            print(f'No se puede devolver el libro "{titulo}".')
 
 while True:
     print("\n1. Agregar libro")
@@ -104,8 +106,7 @@ while True:
 
     elif opcion == "3":
         devolver_libro(biblioteca)
-        if not encontrado:
-            print(f'No se puede devolver el libro "{titulo}".')
+        
 
     elif opcion == "4":
         print("Saliendo del programa.")
