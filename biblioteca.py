@@ -53,6 +53,7 @@ while True:
 
 """
 
+biblioteca = []
 
 def agregar_libro(biblioteca):
     titulo = input("Ingrese el título del libro: ")
@@ -63,7 +64,6 @@ def agregar_libro(biblioteca):
     biblioteca.append(libro)
     print(f'Libro "{titulo}" agregado a la biblioteca.')
 
-biblioteca = []
 
 while True:
     print("\n1. Agregar libro")
