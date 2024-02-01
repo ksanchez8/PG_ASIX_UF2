@@ -55,6 +55,7 @@ while True:
 
 biblioteca = []
 
+
 def agregar_libro(biblioteca):
     titulo = input("Ingrese el título del libro: ")
     autor = input("Ingrese el autor del libro: ")
@@ -73,6 +74,8 @@ def prestar_libro(biblioteca):
             print(f'Libro "{titulo}" prestado con éxito.')
             encontrado = True
             break
+    if not encontrado:
+            print(f'Libro "{titulo}" no disponible para préstamo.')
 
 def devolver_libro(biblioteca):
     titulo = input("Ingrese el título del libro a devolver: ")
@@ -83,7 +86,7 @@ def devolver_libro(biblioteca):
             print(f'Libro "{titulo}" devuelto con éxito.')
             encontrado = True
             break
-        
+
 while True:
     print("\n1. Agregar libro")
     print("2. Prestar libro")
@@ -97,11 +100,10 @@ while True:
 
     elif opcion == "2":
         prestar_libro(biblioteca)
-        if not encontrado:
-            print(f'Libro "{titulo}" no disponible para préstamo.')
+        
 
     elif opcion == "3":
-        
+        devolver_libro(biblioteca)
         if not encontrado:
             print(f'No se puede devolver el libro "{titulo}".')
 
