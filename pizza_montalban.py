@@ -14,4 +14,9 @@ def mostrar_menu(): #Se crea el menu, mostrando las pizzas a elejir
     
     opcion = input("Selecciona la pizza: ")
 
+def estoc_ingredients(): #Se añade para poder introducir lo que hay que reponer
+    falta_stock = True
+    while falta_stock:
+        ingredientes = input("Introduce el ingrediente que falta: ")
+
 
