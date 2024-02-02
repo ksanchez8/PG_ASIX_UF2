@@ -103,3 +103,25 @@ def gestionar_pizzeria():
             print("Opció no vàlida. Per favor, selecciona una opció correcta.")
 
 gestionar_pizzeria()
+
+"""
+EJERCICIO CORREGIDO
+
+1. Gestionar Pizzaria
+1.1 Tomar Pedido
+1.2 Preparar pedido
+1.3 Gestión inventario
+1.4 Proceso pago
+
+1.1.1 -Listado de pizza o interficie de usuario
+1.1.2 -Verificar stock
+1.2.1 -Cocina
+1.2.2 -Verificar (QA)
+1.3.1 -Atualizar
+1.3.2 -Reabastecer
+1.4.1 -Calcular costes
+1.4.2 -Factura
+
+
+
+"""
