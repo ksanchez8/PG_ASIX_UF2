@@ -1,6 +1,6 @@
 # Programa principal / Mostrar menú
 def mostrar_menu(temperatures):
-    temperatures = [20,5 21,1 21 21,7 20,9 20,6 19,9 ]
+    
     for setmana in range(1, 53):
         print(f"\n----- Setmana {setmana} de l'any -----")
         print("\nBenvingut al registre de temperatures")
@@ -23,5 +23,5 @@ def mostrar_menu(temperatures):
         else:
             print("Opció no vàlida. Torna a intentar.")
 
-
+temperatures = [20, 5, 21.1, 21, 21.7, 20.9, 20.6, 19.9]
 mostrar_menu(temperatures)
