@@ -2,6 +2,7 @@
 temperatures = []
 def registrar_temperatures(temperatures):
     temperatures_input = input("Introdueix les temperatures de la setmana anterior: ")
+    temperatura_setmanal = [float(temp.replace(',', '.')) for temp in temperatures_input.split()]
 
 def mostrar_menu(temperatures):
     
