@@ -1,4 +1,8 @@
 # Programa principal / Mostrar menú
+temperatures = []
+def registrar_temperatures(temperatures):
+    temperatures_input = input("Introdueix les temperatures de la setmana anterior: ")
+
 def mostrar_menu(temperatures):
     
     for setmana in range(1, 53):
@@ -23,8 +27,6 @@ def mostrar_menu(temperatures):
         else:
             print("Opció no vàlida. Torna a intentar.")
 
-
-temperatures = []
 
 #Execució del programa
 mostrar_menu(temperatures)
