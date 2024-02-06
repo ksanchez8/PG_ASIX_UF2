@@ -25,4 +25,6 @@ def mostrar_menu(temperatures):
 
 
 temperatures = []
+
+#Execució del programa
 mostrar_menu(temperatures)
