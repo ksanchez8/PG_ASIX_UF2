@@ -23,5 +23,6 @@ def mostrar_menu(temperatures):
         else:
             print("Opció no vàlida. Torna a intentar.")
 
-temperatures = [20, 5, 21.1, 21, 21.7, 20.9, 20.6, 19.9]
+
+temperatures = []
 mostrar_menu(temperatures)
