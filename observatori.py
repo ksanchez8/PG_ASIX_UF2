@@ -10,6 +10,8 @@ def registrar_temperatures(temperatures):
 def consultar_temperatura_mitajana(temperatures):
     if not temperatures:
         print("No hi ha temperatures regidtrades. ")
+    else:
+       ... 
 
 # Programa principal / Mostrar menú
 def mostrar_menu(temperatures):
