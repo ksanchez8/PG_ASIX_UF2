@@ -7,6 +7,10 @@ def registrar_temperatures(temperatures):
     temperatura_setmanal = [float(temp.replace(',', '.')) for temp in temperatures_input.split()]
     temperatures.append(temperatura_setmanal)
 
+def consultar_temperatura_mitajana(temperatures):
+    if not temperatures:
+        print("No hi ha temperatures regidtrades. ")
+
 # Programa principal / Mostrar menú
 def mostrar_menu(temperatures):
     
