@@ -1,10 +1,13 @@
-# Programa principal / Mostrar menú
+# Declaració de la llista on introduirem les temperatures
 temperatures = []
+
+# Programa per introduir les temperatures
 def registrar_temperatures(temperatures):
     temperatures_input = input("Introdueix les temperatures de la setmana anterior: ")
     temperatura_setmanal = [float(temp.replace(',', '.')) for temp in temperatures_input.split()]
     temperatures.append(temperatura_setmanal)
 
+# Programa principal / Mostrar menú
 def mostrar_menu(temperatures):
     
     for setmana in range(1, 53):
