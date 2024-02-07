@@ -11,9 +11,12 @@ def consultar_temperatura_mitjana(temperatures):
     if not temperatures:
         print("No hi ha temperatures registrades. ")
     else:
-        for temperatura in temperatures:
-            suma_temperaturas += temperatura 
-        print(suma_temperaturas)
+        suma_temperaturas = 0
+        for semana in temperatures:
+            for temperatura in semana:
+                suma_temperaturas += temperatura 
+        temperatura_mitjana = suma_temperaturas / (len(temperatures) * len(semana))
+        print("La temperatura mitjana és:", temperatura_mitjana)
 
 # Programa principal / Mostrar menú
 def mostrar_menu(temperatures):
