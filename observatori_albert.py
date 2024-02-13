@@ -24,3 +24,4 @@ def calculaMitjana():
 def mostrar_data():
 
 def incrementar_data():
+    ...
