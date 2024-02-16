@@ -95,7 +95,7 @@ def mostrar_data():
     elif mes == 5:
         print("Maig")
     elif mes == 6:
-        print("Juny")
+        print("Juny") 
     elif mes == 7:
         print("Juliol")
     elif mes == 8:
