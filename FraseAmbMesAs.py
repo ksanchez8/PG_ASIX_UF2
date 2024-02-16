@@ -1,5 +1,5 @@
 def contar_as():
-    global fi
+    global fi #Global para no tener problemas con el scope
     fi = False
 
     while not fi:
@@ -10,11 +10,11 @@ def contar_as():
             salida()
 
         else:
-            frase_minusculas = introducir_frase.casefold().count('a')
-            print(f'La frase amb mes \'a\' {introducir_frase}')
-            print(f'Té {frase_minusculas}')
+            frase_minusculas = introducir_frase.casefold().count('a') #casefold para contar las letras
+            print(f'La frase amb mes \'a\' es "{introducir_frase}"')
+            print(f'Té {frase_minusculas} \'a\'')
 
-def salida():
+def salida(): #Creación del def de salida
     global fi
     fi = True
 
