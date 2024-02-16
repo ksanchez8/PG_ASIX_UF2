@@ -11,7 +11,8 @@ def contar_as():
 
         else:
             frase_minusculas = introducir_frase.casefold().count('a')
-            print(frase_minusculas)
+            print(f'La frase amb mes \'a\' {introducir_frase}')
+            print(f'Té {frase_minusculas}')
 
 def salida():
     global fi
