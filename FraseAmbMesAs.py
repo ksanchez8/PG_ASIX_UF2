@@ -3,7 +3,7 @@ def frase():
     print(introducir_frase)
 
 def contar_as():
-    
+    frase_minusculas = introducir_frase.lower()
 
 
 frase()
