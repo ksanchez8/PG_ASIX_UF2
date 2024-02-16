@@ -3,8 +3,8 @@ def frase():
     print(introducir_frase)
 
 def contar_as():
-    frase_minusculas = introducir_frase.lower()
-
+    frase_minusculas = introducir_frase.casefold().count('a')
+    
 
 frase()
-
+contar_as()
