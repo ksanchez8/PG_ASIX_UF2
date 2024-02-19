@@ -5,4 +5,4 @@ def contar_repeticiones(maxim_tirades):
             print(f"{dado1} + {dado2} ES {suma}")
 
 maxim_tirades = 36
-contar_repeticiones(num_lanzamientos)
+contar_repeticiones(maxim_tirades)
