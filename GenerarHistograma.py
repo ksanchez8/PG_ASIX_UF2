@@ -4,5 +4,5 @@ def contar_repeticiones(num_lanzamientos):
             suma = dado1 + dado2
             print(f"{dado1} + {dado2} ES {suma}")
 
-num_lanzamientos = 100
+num_lanzamientos = 36
 contar_repeticiones(num_lanzamientos)
