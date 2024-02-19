@@ -1,3 +1,5 @@
+resultados = []
+
 def contar_repeticiones(maxim_tirades):
     for dado1 in range(1, 7):
         for dado2 in range(1, 7):
