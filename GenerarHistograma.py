@@ -9,8 +9,14 @@ def contar_repeticiones(maxim_tirades):
             resultados.append(suma)
 
     for quantitat in range(2, 13):
+        max_repeticiones = 0
+        num_max_repeticiones = None
         repeticiones = resultados.count(quantitat)
-        print(f"La suma {quantitat} se repite {repeticiones} veces.")
+        if repeticiones > max_repeticiones:
+            max_repeticiones = repeticiones
+            num_max_repeticiones = quantitat
+
+    print(f"El numero que mas se repite es: {num_max_repeticiones}, que se repite {max_repeticiones} veces.")
 
     return resultados
             
