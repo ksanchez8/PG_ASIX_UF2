@@ -5,6 +5,8 @@ def contar_repeticiones(maxim_tirades):
         for dado2 in range(1, 7):
             suma = dado1 + dado2
             print(f"{dado1} + {dado2} ES {suma}")
+            resultados = suma
+            return resultados
 
 maxim_tirades = 36
 contar_repeticiones(maxim_tirades)
