@@ -35,5 +35,8 @@ def calcular_probabilitat(valor):
     else:
         print("El valor no esta entre 2 i 12.")
 
+
+
 contar_repeticiones(maxim_tirades)
 
+valor_a_calcular = int(input("Escriu el valor a calcular [2 - 12]: "))
