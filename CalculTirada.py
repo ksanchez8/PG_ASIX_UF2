@@ -33,7 +33,7 @@ def calcular_probabilitat(valor):
         probabilitat = (tirades_valor * 100) / maxim_tirades
         print(f"La probabilitat és {probabilitat}%.")
     else:
-        ...
+        print("El valor no esta entre 2 i 12.")
 
 contar_repeticiones(maxim_tirades)
 
