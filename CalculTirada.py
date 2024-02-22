@@ -53,6 +53,12 @@ def contar_repeticiones(maxim_tirades):
 
     return resultados
 
+def calcular_probabilitat(valor):
+    if 2 >= valor <= 12:
+        ...
+    else:
+        ...
+
 contar_repeticiones(maxim_tirades)
 
 contar_repeticiones(maxim_tirades)
