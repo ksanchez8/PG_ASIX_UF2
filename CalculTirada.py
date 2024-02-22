@@ -40,3 +40,5 @@ def calcular_probabilitat(valor):
 contar_repeticiones(maxim_tirades)
 
 valor_a_calcular = int(input("Escriu el valor a calcular [2 - 12]: "))
+
+calcular_probabilitat(valor_a_calcular)
