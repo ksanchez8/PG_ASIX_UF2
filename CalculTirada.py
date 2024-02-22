@@ -35,4 +35,3 @@ def calcular_probabilitat(valor):
 
 contar_repeticiones(maxim_tirades)
 
-contar_repeticiones(maxim_tirades)
