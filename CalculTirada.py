@@ -28,12 +28,16 @@ def contar_repeticiones(maxim_tirades):
     return resultados
 
 def calcular_probabilitat(valor):
+    # Verificar si el valor está dentro del rango permitido
     if 2 <= valor <= 12:
         tirades_valor = 0
+        # Contar las tiradas que cumplen con la condición
         for tirada in resultados:
             if tirada <= valor:
                 tirades_valor += 1
-        probabilitat = (tirades_valor * 100) // len(resultados)
+        # Calcular la probabilidad sin redondear utilizando división entera
+        probabilitat = (tirades_valor * 100) / len(resultados)
+        # Imprimir la probabilidad sin decimales
         print(f"La probabilitat és {probabilitat:.0f}%.")
     else:
         print("El valor no esta entre 2 i 12.")
