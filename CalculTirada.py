@@ -34,7 +34,7 @@ def calcular_probabilitat(valor):
             if tirada <= valor:
                 tirades_valor += 1
         probabilitat = (tirades_valor * 100) / len(resultados)
-        print(f"La probabilitat és {probabilitat:.0f}%.")
+        print(f"La probabilitat és {probabilitat:.1f}%.")
     else:
         print("El valor no esta entre 2 i 12.")
 
