@@ -29,7 +29,10 @@ def contar_repeticiones(maxim_tirades):
 
 def calcular_probabilitat(valor):
     if 2 <= valor <= 12:
-        tirades_valor = sum(1 for tirada in resultados if tirada <= valor)
+        tirades_valor = 0
+        for tirada in resultados:
+            if tirada <= valor:
+                tirades_valor += 1
         probabilitat = (tirades_valor * 100) / len(resultados)
         print(f"La probabilitat és {probabilitat:.0f}%.")
     else:
