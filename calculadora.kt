@@ -1,1 +1,1 @@
-print("Helloworld")
+fun suma(a: Int, b: Int) = a + b 
