@@ -38,4 +38,13 @@ fun main() {
     println(socio1.obtenerInformacion())
     println(socio2.obtenerInformacion())
 
-    
+      // Realizar préstamos
+    val fechaActual = "2024-03-15"
+    val prestamo1 = Prestamo(libro1, socio1, fechaActual)
+    val prestamo2 = Prestamo(libro2, socio2, fechaActual)
+
+    // Mostrar información de los préstamos
+    println("\nInformación de los préstamos:")
+    println(prestamo1.obtenerInformacion())
+    println(prestamo2.obtenerInformacion())
+}
