@@ -28,3 +28,14 @@ fun main() {
       // Creación de socios
     val socio1 = Socio("Juan", "García", 1001)
     val socio2 = Socio("María", "López", 1002)
+
+     // Mostrar información de los libros y socios
+    println("Información de los libros:")
+    println(libro1.obtenerInformacion())
+    println(libro2.obtenerInformacion())
+
+    println("\nInformación de los socios:")
+    println(socio1.obtenerInformacion())
+    println(socio2.obtenerInformacion())
+
+    
