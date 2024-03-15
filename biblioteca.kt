@@ -24,3 +24,7 @@ fun main() {
     // Creación de libros
     val libro1 = Libro("El señor de los anillos", "J.R.R. Tolkien", 3)
     val libro2 = Libro("Crimen y castigo", "Fyodor Dostoevsky", 5)
+
+      // Creación de socios
+    val socio1 = Socio("Juan", "García", 1001)
+    val socio2 = Socio("María", "López", 1002)
