@@ -47,3 +47,6 @@ def moure_dreta(coordenada: Coordenada) -> Coordenada:
 
 def moure_esquerra(coordenada: Coordenada) -> Coordenada:
     return Coordenada(coordenada.x - 1, coordenada.y)
+
+def moure_amunt(coordenada: Coordenada) -> Coordenada:
+    return Coordenada(coordenada.x, coordenada.y + 1)
