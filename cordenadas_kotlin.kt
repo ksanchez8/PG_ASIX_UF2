@@ -58,3 +58,7 @@ class Main {
 
      }
 }
+
+fun main() {
+    Main()
+}
