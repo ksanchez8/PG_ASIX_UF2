@@ -39,3 +39,7 @@ fun moureEsquerra(coordenada: Coordenada): Coordenada {
 fun moureAmunt(coordenada: Coordenada): Coordenada {
     return Coordenada(coordenada.x, coordenada.y + 1)
 }
+
+fun moureAvall(coordenada: Coordenada): Coordenada {
+    return Coordenada(coordenada.x, coordenada.y - 1)
+}
