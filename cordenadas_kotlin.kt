@@ -45,8 +45,11 @@ fun moureAvall(coordenada: Coordenada): Coordenada {
 }
 
 class Main {
+     init {
 
 
 
 
+
+     }
 }
