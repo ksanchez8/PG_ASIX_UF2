@@ -4,5 +4,5 @@ class Llibre:
         self.autor = input("Introduce el autor del libro: ")
         self.exemplars = int(input("Introduce el número de ejemplares disponibles: "))
 
-     def informacio(self):
+    def informacio(self):
         return f"Título: {self.titol}, Autor: {self.autor}, Ejemplares disponibles: {self.exemplars}"
