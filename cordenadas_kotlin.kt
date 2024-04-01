@@ -62,3 +62,6 @@ class Main {
 fun main() {
     Main()
 }
+
+//Prueba realizada y compila a la perfección con el siguiente codigo:
+//kotlinc cordenadas_kotlin.kt -include-runtime -d cordenadas_kotlin.jar
