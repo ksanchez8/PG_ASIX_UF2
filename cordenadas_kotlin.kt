@@ -46,7 +46,8 @@ fun moureAvall(coordenada: Coordenada): Coordenada {
 
 class Main {
      init {
-
+        val coordenada = Coordenada()
+        var novaCoordenada = moureDreta(coordenada)
 
 
 
