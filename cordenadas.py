@@ -57,3 +57,9 @@ def moure_avall(coordenada: Coordenada) -> Coordenada:
 class Main:
     def __init__(self) -> None:
         coordenada: Coordenada = Coordenada()
+
+        nova_coordenada = moure_dreta(coordenada)
+        print(f"Nova coordenada despres de moure a la dreta: ({nova_coordenada.x}, {nova_coordenada.y})")
+
+        nova_coordenada = moure_amunt(nova_coordenada)
+        print(f"Nova coordenada despres de moure amunt: ({nova_coordenada.x}, {nova_coordenada.y})")
