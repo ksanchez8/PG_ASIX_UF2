@@ -63,3 +63,6 @@ class Main:
 
         nova_coordenada = moure_amunt(nova_coordenada)
         print(f"Nova coordenada despres de moure amunt: ({nova_coordenada.x}, {nova_coordenada.y})")
+
+
+Main()
