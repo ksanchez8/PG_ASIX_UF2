@@ -32,3 +32,6 @@ fun moureDreta(coordenada: Coordenada): Coordenada {
     return Coordenada(coordenada.x + 1, coordenada.y)
 }
 
+fun moureEsquerra(coordenada: Coordenada): Coordenada {
+    return Coordenada(coordenada.x - 1, coordenada.y)
+}
