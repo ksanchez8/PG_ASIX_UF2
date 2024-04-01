@@ -26,8 +26,9 @@ class Main:
 Main()
  */
 
- class Coordenada(var x: Int = 0, var y: Int = 0)
+class Coordenada(var x: Int = 0, var y: Int = 0)
 
 fun moureDreta(coordenada: Coordenada): Coordenada {
     return Coordenada(coordenada.x + 1, coordenada.y)
 }
+
