@@ -48,7 +48,7 @@ class Main {
      init {
         val coordenada = Coordenada()
         var novaCoordenada = moureDreta(coordenada) //Movimiento de la coordenada hacia la derecha y asignación de la nueva coordenada a novaCoordenada
-
+        println("Nova coordenada despres de moure a la dreta: (${novaCoordenada.x}, ${novaCoordenada.y})")
 
 
 
