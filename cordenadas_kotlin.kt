@@ -25,3 +25,5 @@ class Main:
 
 Main()
  */
+
+ class Coordenada(var x: Int = 0, var y: Int = 0)
