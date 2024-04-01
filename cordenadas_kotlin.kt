@@ -47,7 +47,7 @@ fun moureAvall(coordenada: Coordenada): Coordenada {
 class Main {
      init {
         val coordenada = Coordenada()
-        var novaCoordenada = moureDreta(coordenada)
+        var novaCoordenada = moureDreta(coordenada) //Movimiento de la coordenada hacia la derecha y asignación de la nueva coordenada a novaCoordenada
 
 
 
