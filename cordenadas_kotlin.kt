@@ -53,7 +53,8 @@ class Main {
         novaCoordenada = moureAmunt(novaCoordenada)
         println("Nova coordenada despres de moure amunt: (${novaCoordenada.x}, ${novaCoordenada.y})")
 
-
+        novaCoordenada = moureAmunt(novaCoordenada)
+        println("Nova coordenada despres de moure amunt: (${novaCoordenada.x}, ${novaCoordenada.y})")
 
      }
 }
