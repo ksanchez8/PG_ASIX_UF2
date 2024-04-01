@@ -53,3 +53,5 @@ def moure_amunt(coordenada: Coordenada) -> Coordenada:
 
 def moure_avall(coordenada: Coordenada) -> Coordenada:
     return Coordenada(coordenada.x, coordenada.y - 1)
+
+class Main:
