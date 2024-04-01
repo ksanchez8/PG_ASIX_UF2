@@ -44,3 +44,6 @@ class Coordenada:
 
 def moure_dreta(coordenada: Coordenada) -> Coordenada:
     return Coordenada(coordenada.x + 1, coordenada.y)
+
+def moure_esquerra(coordenada: Coordenada) -> Coordenada:
+    return Coordenada(coordenada.x - 1, coordenada.y)
