@@ -43,3 +43,10 @@ fun moureAmunt(coordenada: Coordenada): Coordenada {
 fun moureAvall(coordenada: Coordenada): Coordenada {
     return Coordenada(coordenada.x, coordenada.y - 1)
 }
+
+class Main {
+
+
+
+
+}
