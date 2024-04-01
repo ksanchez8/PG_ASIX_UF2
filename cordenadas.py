@@ -55,3 +55,5 @@ def moure_avall(coordenada: Coordenada) -> Coordenada:
     return Coordenada(coordenada.x, coordenada.y - 1)
 
 class Main:
+    def __init__(self) -> None:
+        coordenada: Coordenada = Coordenada()
