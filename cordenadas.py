@@ -38,4 +38,9 @@ print(f"Nova coordenada després de moure amunt: {coordenada}")
 """
 
 class Coordenada:
-    ...
+    def __init__(self, x=0, y=0) -> None:
+        self.x: int = x
+        self.y: int = y
+
+def moure_dreta(coordenada: Coordenada) -> Coordenada:
+    return Coordenada(coordenada.x + 1, coordenada.y)
